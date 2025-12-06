@@ -49,13 +49,16 @@ class ValueRequirementImpl(Requirement):
         if subject is None:
             subject = github_value
 
+        description_template = f"Validates that {subject} is set to '{{__expected_value}}'."
+
         super().__init__(
             name,
-            f"Validates that {subject} is set to '{{__expected_value}}'.",
+            description_template.format(__expected_value=default_value),
             ExecutionStyle.Parallel,
             resolution,
             rationale,
             requires_explicit_include=requires_explicit_include,
+            description_template=description_template,
         )
 
         self.github_value = github_value

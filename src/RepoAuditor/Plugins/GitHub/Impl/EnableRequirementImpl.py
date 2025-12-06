@@ -42,13 +42,16 @@ class EnableRequirementImpl(Requirement):
         if subject is None:
             subject = github_settings_value
 
+        description_template = f"Validates that {subject} is set to {{__expected_value}}."
+
         super().__init__(
             name,
-            f"Validates that {subject} is set to {{__expected_value}}.",
+            description_template.format(__expected_value=enabled_by_default),
             ExecutionStyle.Parallel,
             resolution,
             rationale,
             requires_explicit_include=requires_explicit_include,
+            description_template=description_template,
         )
 
         self.dynamic_arg_name = dynamic_arg_name
