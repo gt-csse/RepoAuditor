@@ -81,6 +81,7 @@ class Requirement(ABC):
         rationale_template: str,
         *,
         requires_explicit_include: bool = False,
+        description_template: str | None = None,
     ) -> None:
         """Initialize the requirement with the given name, description, and style.
 
@@ -88,8 +89,8 @@ class Requirement(ABC):
         """
         self.name = name
         # Use description template so we can update this description for each requirement
-        self.description_template = description
-        # Use the description as is as backup
+        self.description_template = description_template or description
+        # Use the provided description as the default
         self.description = description
         self.style = style
 
