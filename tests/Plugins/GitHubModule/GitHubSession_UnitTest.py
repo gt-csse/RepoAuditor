@@ -43,7 +43,7 @@ class TestGitHubSession:
     @classmethod
     def setup_class(cls):
         """Setup values for each test."""
-        cls.github_url = "https://github.com/gt-sse-center/RepoAuditor"
+        cls.github_url = "https://github.com/gt-csse/RepoAuditor"
 
     def test_Construct(self, github_pat):
         """Test constructor."""
@@ -61,12 +61,12 @@ class TestGitHubSession:
         """Test with invalid repository URL."""
         with pytest.raises(ValueError):
             _GitHubSession(
-                github_url="https://github.com/gt-sse-center/RepoAuditor/123", github_pat=github_pat
+                github_url="https://github.com/gt-csse/RepoAuditor/123", github_pat=github_pat
             )
 
     def test_EnterpriseUrl(self, github_pat):
         """Test with enterprise URL."""
-        github_enterprise_url = "https://github.gatech.edu/gt-sse-center/RepoAuditor"
+        github_enterprise_url = "https://github.gatech.edu/gt-csse/RepoAuditor"
         session = _GitHubSession(github_url=github_enterprise_url, github_pat=github_pat)
         assert session.github_url == github_enterprise_url
 
@@ -77,7 +77,7 @@ class TestGitHubSession:
         monkeypatch.setattr(requests.Session, "request", mock_request)
         r = session.request("GET", "test")
 
-        assert r.url == "https://api.github.com/repos/gt-sse-center/RepoAuditor/test"
+        assert r.url == "https://api.github.com/repos/gt-csse/RepoAuditor/test"
 
     def test_RequestLeadingSlash(self, github_pat, monkeypatch):
         """Test the _GitHubSession.request method."""
@@ -86,4 +86,4 @@ class TestGitHubSession:
         monkeypatch.setattr(requests.Session, "request", mock_request)
         r = session.request("GET", "/test")
 
-        assert r.url == "https://api.github.com/repos/gt-sse-center/RepoAuditor/test"
+        assert r.url == "https://api.github.com/repos/gt-csse/RepoAuditor/test"

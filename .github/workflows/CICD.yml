@@ -32,7 +32,7 @@ jobs:
       coverage_badge_gist_username: "davidbrownell"
 
     secrets:
-      # These values should be populated as GitHub Action secrets (https://github.com/gt-sse-center/RepoAuditor/settings/secrets/actions)
+      # These values should be populated as GitHub Action secrets (https://github.com/gt-csse/RepoAuditor/settings/secrets/actions)
       MINISIGN_PRIVATE_KEY: ${{ secrets.MINISIGN_PRIVATE_KEY }}
       PYPI_PUBLISH_TOKEN: ${{ secrets.PYPI_PUBLISH_TOKEN }}
       COVERAGE_BADGE_GIST_TOKEN: ${{ secrets.COVERAGE_BADGE_GIST_TOKEN }}

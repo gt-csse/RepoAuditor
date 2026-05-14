@@ -355,7 +355,7 @@ class ReadmeCheckModule(Module):
                 typer.Option(
                     ...,
                     help=
-                    "[REQUIRED] Github URL (e.g. https://github.com/gt-sse-center/RepoAuditor)",
+                    "[REQUIRED] Github URL (e.g. https://github.com/gt-csse/RepoAuditor)",
                 ),
             ),
         }
@@ -405,11 +405,11 @@ We start by installing the package locally.
 ```sh
 $ uv pip install -e .
 Resolved 25 packages in 13ms
-      Built readmecheck @ file:///Users/gt-sse-center/gt-sse/ReadmeCheck
+      Built readmecheck @ file:///Users/gt-csse/gt-sse/ReadmeCheck
 Prepared 1 package in 648ms
 Uninstalled 1 package in 1ms
 Installed 1 package in 2ms
- ~ readmecheck==0.0.0 (from file:///Users/gt-sse-center/gt-sse/ReadmeCheck)
+ ~ readmecheck==0.0.0 (from file:///Users/gt-csse/gt-sse/ReadmeCheck)
 ```
 
 After this, we simply call `RepoAuditor` and specify our custom module in the `--include` flag, which should yield the following result:
@@ -417,7 +417,7 @@ After this, we simply call `RepoAuditor` and specify our custom module in the `-
 <!-- termynal -->
 ```sh
 $ uv run repoauditor --include ReadmeCheck \
-    --ReadmeCheck-url https://github.com/gt-sse-center/RepoAuditor
+    --ReadmeCheck-url https://github.com/gt-csse/RepoAuditor
 Processing 1 module...
   Processing 'ReadmeCheck' (1 of 1)...
   Processing 'ReadmeCheck' (1 of 1)...DONE! (0, 0:00:00.697564):00 ✅

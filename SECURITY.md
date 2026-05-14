@@ -3,13 +3,13 @@
 ## Reporting a Vulnerability
 
 <!-- [BEGIN] Submit Vulnerability -->
-We prefer that you use the [GitHub mechanism for privately reporting a vulnerability](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability#privately-reporting-a-security-vulnerability). Under the [main repository's security tab](https://github.com/gt-sse-center/RepoAuditor/security), in the left sidebar, under "Reporting", click "Advisories", click the "New draft security advisory" button to open the advisory form.
+We prefer that you use the [GitHub mechanism for privately reporting a vulnerability](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability#privately-reporting-a-security-vulnerability). Under the [main repository's security tab](https://github.com/gt-csse/RepoAuditor/security), in the left sidebar, under "Reporting", click "Advisories", click the "New draft security advisory" button to open the advisory form.
 <!-- [END] Submit Vulnerability -->
 
 **How to report a security vulnerability:**
 
 1. **Contact:** Please use the [GitHub mechanism for privately reporting a vulnerability](https://docs.github.com/en/code-security/security-advisories/guidance-on-reporting-and-writing/privately-reporting-a-security-vulnerability#privately-reporting-a-security-vulnerability).
-    1. Under [this repository's security tab](https://github.com/gt-sse-center/RepoAuditor/security)...
+    1. Under [this repository's security tab](https://github.com/gt-csse/RepoAuditor/security)...
         - ...in the left sidebar...
         - ...under "Reporting"...
         - ...click "Advisories"
