@@ -60,9 +60,7 @@ class TestGitHubSession:
     def test_InvalidRepository(self, github_pat):
         """Test with invalid repository URL."""
         with pytest.raises(ValueError):
-            _GitHubSession(
-                github_url="https://github.com/gt-csse/RepoAuditor/123", github_pat=github_pat
-            )
+            _GitHubSession(github_url="https://github.com/gt-csse/RepoAuditor/123", github_pat=github_pat)
 
     def test_EnterpriseUrl(self, github_pat):
         """Test with enterprise URL."""
