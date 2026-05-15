@@ -170,7 +170,7 @@ def _HelpEpilog() -> str:
 
         Command Line Examples
         =====================
-        RepoAuditor --include GitHub --GitHub-url https://github.com/gt-sse-center/RepoAuditor --GitHub-pat <PAT or path to file containing PAT>
+        RepoAuditor --include GitHub --GitHub-url https://github.com/gt-csse/RepoAuditor --GitHub-pat <PAT or path to file containing PAT>
 
         """,
         )

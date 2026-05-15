@@ -22,8 +22,8 @@ from RepoAuditor.Plugins.GitHubBase.Module import _GitHubSession
 def module_data() -> dict[str, Any]:
     """Get the data required by the module."""
     return {
-        "session": _GitHubSession("https://github.com/gt-sse-center/RepoAuditor", "pat"),
-        "url": "https://github.com/gt-sse-center/RepoAuditor",
+        "session": _GitHubSession("https://github.com/gt-csse/RepoAuditor", "pat"),
+        "url": "https://github.com/gt-csse/RepoAuditor",
     }
 
 

@@ -1,7 +1,7 @@
 # RepoAuditor - README
 
 **Project:**
-[![License](https://img.shields.io/github/license/gt-sse-center/RepoAuditor?color=dark-green)](https://github.com/gt-sse-center/RepoAuditor/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/gt-csse/RepoAuditor?color=dark-green)](https://github.com/gt-csse/RepoAuditor/blob/master/LICENSE)
 
 **Package:**
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/repoauditor?color=dark-green)](https://pypi.org/project/repoauditor/)
@@ -10,9 +10,9 @@
 
 **Development:**
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
-[![CI](https://github.com/gt-sse-center/RepoAuditor/actions/workflows/CICD.yml/badge.svg)](https://github.com/gt-sse-center/RepoAuditor/actions/workflows/CICD.yml)
-[![Code Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/davidbrownell/2f9d770d13e3a148424f374f74d41f4b/raw/RepoAuditor_code_coverage.json)](https://github.com/gt-sse-center/RepoAuditor/actions)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/gt-sse-center/RepoAuditor?color=dark-green)](https://github.com/gt-sse-center/RepoAuditor/commits/main/)
+[![CI](https://github.com/gt-csse/RepoAuditor/actions/workflows/CICD.yml/badge.svg)](https://github.com/gt-csse/RepoAuditor/actions/workflows/CICD.yml)
+[![Code Coverage](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/davidbrownell/2f9d770d13e3a148424f374f74d41f4b/raw/RepoAuditor_code_coverage.json)](https://github.com/gt-csse/RepoAuditor/actions)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/y/gt-csse/RepoAuditor?color=dark-green)](https://github.com/gt-csse/RepoAuditor/commits/main/)
 
 <!-- Content above this delimiter will be copied to the generated README.md file. DO NOT REMOVE THIS COMMENT, as it will cause regeneration to fail. -->
 
@@ -30,7 +30,7 @@ E.g. check if various files for maintaining community standards are available:
 
 ```shell
 uvx repoauditor --include CommunityStandards \
-    --CommunityStandards-url https://github.com/gt-sse-center/RepoAuditor \
+    --CommunityStandards-url https://github.com/gt-csse/RepoAuditor \
     --verbose
 ```
 
@@ -46,7 +46,7 @@ Please refer to the documentation hosted [here](docs/index.md).
 
 ## Development
 
-Please visit [Contributing](https://github.com/gt-sse-center/RepoAuditor/blob/main/docs/CONTRIBUTING.md) and [Development](https://github.com/gt-sse-center/RepoAuditor/blob/docs/development.md) for information on contributing to this project.
+Please visit [Contributing](https://github.com/gt-csse/RepoAuditor/blob/main/docs/CONTRIBUTING.md) and [Development](https://github.com/gt-csse/RepoAuditor/blob/docs/development.md) for information on contributing to this project.
 
 ## Additional Information
 

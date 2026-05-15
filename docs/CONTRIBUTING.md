@@ -4,17 +4,17 @@ Additional information is available at the following locations.
 
 | Topic | Description | Location |
 | --- | --- | --- |
-| Code of Conduct | How we welcome others to this community. | [CODE_OF_CONDUCT.md](https://github.com/gt-sse-center/RepoAuditor/blob/main/CODE_OF_CONDUCT.md) |
-| Development Activities | How we create software in this community. | [DEVELOPMENT.md](https://github.com/gt-sse-center/RepoAuditor/blob/main/DEVELOPMENT.md) |
-| Security | How to report vulnerabilities in our software. | [SECURITY.md](https://github.com/gt-sse-center/RepoAuditor/blob/main/SECURITY.md) |
+| Code of Conduct | How we welcome others to this community. | [CODE_OF_CONDUCT.md](https://github.com/gt-csse/RepoAuditor/blob/main/CODE_OF_CONDUCT.md) |
+| Development Activities | How we create software in this community. | [DEVELOPMENT.md](https://github.com/gt-csse/RepoAuditor/blob/main/DEVELOPMENT.md) |
+| Security | How to report vulnerabilities in our software. | [SECURITY.md](https://github.com/gt-csse/RepoAuditor/blob/main/SECURITY.md) |
 
 ## Bug Reports
 
-If you experience a problem with our software, please visit [issues](https://github.com/gt-sse-center/RepoAuditor/issues) and create a `Bug report`.
+If you experience a problem with our software, please visit [issues](https://github.com/gt-csse/RepoAuditor/issues) and create a `Bug report`.
 
 ## Feature Requests
 
-If you would like to suggest a new feature for our software, please visit [issues](https://github.com/gt-sse-center/RepoAuditor/issues) and create a `Feature request`.
+If you would like to suggest a new feature for our software, please visit [issues](https://github.com/gt-csse/RepoAuditor/issues) and create a `Feature request`.
 
 ## Issue Labels
 
@@ -31,7 +31,7 @@ We use these labels to help us track and manage `Bug reports` and `Feature reque
 ## General Information
 
 <!-- [BEGIN] General Information -->
-For specific proposals, please provide them as [pull requests](https://github.com/coreinfrastructure/best-practices-badge/pulls) or [issues](https://github.com/coreinfrastructure/best-practices-badge/issues) via our [GitHub site](https://github.com/gt-sse-center/RepoAuditor).
+For specific proposals, please provide them as [pull requests](https://github.com/coreinfrastructure/best-practices-badge/pulls) or [issues](https://github.com/coreinfrastructure/best-practices-badge/issues) via our [GitHub site](https://github.com/gt-csse/RepoAuditor).
 <!-- [END] General Information -->
 
 The [DEVELOPMENT.md](DEVELOPMENT.md) file explains how to install the program locally (highly recommended if you're going to make code changes). It also provides information useful for making changes and validating them locally before submitting a pull request.
@@ -60,7 +60,7 @@ Since early detection and impact reduction can never be perfect, we also try to 
 
 Please privately report vulnerabilities you find so we can fix them!
 
-See [SECURITY.md](https://github.com/gt-sse-center/RepoAuditor/blob/main/SECURITY.md) for information on how to privately report vulnerabilities.
+See [SECURITY.md](https://github.com/gt-csse/RepoAuditor/blob/main/SECURITY.md) for information on how to privately report vulnerabilities.
 
 ## Acknowledgements
 

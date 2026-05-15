@@ -4,7 +4,7 @@
 
 | Step | Command Line | Additional Information |
 | --- | --- | --- |
-| 1. Fork the repository | -- | [Fork Link](https://github.com/gt-sse-center/RepoAuditor/fork) |
+| 1. Fork the repository | -- | [Fork Link](https://github.com/gt-csse/RepoAuditor/fork) |
 | 2. Create a PAT for your forked repository | -- | See [PAT setup instructions](PAT.md) |
 | 3. Update your forked repository settings to match RepoAuditor's defaults | -- | -- |
 
@@ -14,7 +14,7 @@
 
 | Step | Command Line | Additional Information |
 | --- | --- | --- |
-| 1. Clone the repository locally. | `git clone https://github.com/gt-sse-center/RepoAuditor` | [git-clone docs](https://git-scm.com/docs/git-clone) |
+| 1. Clone the repository locally. | `git clone https://github.com/gt-csse/RepoAuditor` | [git-clone docs](https://git-scm.com/docs/git-clone) |
 | 2. Install [uv](https://github.com/astral-sh/uv). | `curl -LsSf https://astral.sh/uv/install.sh \| sh` on macOS and Linux or <br/>`powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 \| iex"` on Windows | https://docs.astral.sh |
 | 3. Install dependencies. | `uv sync` | [Astral uv sync docs](https://docs.astral.sh/uv/concepts/projects/sync) |
 | 4. Install [pre-commit](https://pre-commit.com/) hooks | `uv run pre-commit install` | [Install pre-commit](https://pre-commit.com/#1-install-pre-commit) |
@@ -27,7 +27,7 @@
 Please follow these steps to allow for local testing.
 
 - Fork the `RepoAuditor` repository. We will test against the fork since your generated PAT is applicable only for the fork.
-- Create a PAT file as detailed in the [README](https://github.com/gt-sse-center/RepoAuditor/blob/main/README.md#personal-access-token-pat).
+- Create a PAT file as detailed in the [README](https://github.com/gt-csse/RepoAuditor/blob/main/README.md#personal-access-token-pat).
 - Set your forked repository as the `origin` remote (this should already be the case but it's good to verify).
 
 ```sh
@@ -134,7 +134,7 @@ We recommend creating different branches for different (logical) changes, and cr
 
 Artifacts are signed and validated using [py-minisign](https://github.com/x13a/py-minisign) and the public key in the file `./minisign_key.pub`.
 
-To verify that an artifact is valid, visit [the latest release](https://github.com/gt-sse-center/RepoAuditor/releases/latest) and download the `.minisign` signature file that corresponds to the artifact, then run the following command, replacing `<filename>` with the name of the artifact to be verified:
+To verify that an artifact is valid, visit [the latest release](https://github.com/gt-csse/RepoAuditor/releases/latest) and download the `.minisign` signature file that corresponds to the artifact, then run the following command, replacing `<filename>` with the name of the artifact to be verified:
 
 ```sh
 uv run --with py-minisign python -c "import minisign; minisign.PublicKey.from_file('minisign_key.pub').verify_file('<filename>')"

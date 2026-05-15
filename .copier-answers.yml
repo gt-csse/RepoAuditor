@@ -1,9 +1,9 @@
 # Changes here will be overwritten by Copier; DO NOT MODIFY THIS FILE DIRECTLY!
 #
 # This file was generated using copier (https://copier.readthedocs.io/) with the
-# template copier-UvScaffolding (https://github.com/gt-sse-center/copier-UvScaffolding).
+# template copier-UvScaffolding (https://github.com/gt-csse/copier-UvScaffolding).
 # Additional information (including instructions on how to use this template with copier) is
-# available at https://github.com/gt-sse-center/copier-UvScaffolding.
+# available at https://github.com/gt-csse/copier-UvScaffolding.
 #
 
 _commit: v0.2.0
@@ -14,7 +14,7 @@ coverage_badge_gist_id: 2f9d770d13e3a148424f374f74d41f4b
 coverage_badge_gist_username: davidbrownell
 github_host: https://github.com
 github_repo_name: RepoAuditor
-github_username: gt-sse-center
+github_username: gt-csse
 license: MIT
 project_name: RepoAuditor
 python_package_name: RepoAuditor

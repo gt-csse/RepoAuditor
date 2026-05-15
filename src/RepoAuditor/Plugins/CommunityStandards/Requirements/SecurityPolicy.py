@@ -31,7 +31,7 @@ class SecurityPolicy(ExistsRequirementImpl):
                    - SECURITY.md
 
                 Example policy can be found at:
-                https://github.com/gt-sse-center/RepoAuditor/blob/main/SECURITY.md
+                https://github.com/gt-csse/RepoAuditor/blob/main/SECURITY.md
                 """
             ),
             textwrap.dedent(

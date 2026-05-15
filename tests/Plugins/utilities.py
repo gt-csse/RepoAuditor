@@ -56,7 +56,7 @@ def GetGithubUrl(remote_name: str = "origin") -> str:
         # The `remote_name` does not exist, so we use a default.
         # Specifically for main repo CI.
         if remote_name == "origin":
-            repo_url = "git@github.com:gt-sse-center/RepoAuditor.git"
+            repo_url = "git@github.com:gt-csse/RepoAuditor.git"
         elif remote_name == "enterprise":
             repo_url = "git@github.gatech.edu:sse-center/RepoAuditor.git"
         else:

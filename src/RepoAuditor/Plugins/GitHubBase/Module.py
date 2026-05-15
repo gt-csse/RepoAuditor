@@ -35,7 +35,7 @@ class GitHubBaseModule(Module):
                 str,
                 typer.Option(
                     ...,
-                    help="[REQUIRED] Github URL (e.g. https://github.com/gt-sse-center/RepoAuditor)",
+                    help="[REQUIRED] Github URL (e.g. https://github.com/gt-csse/RepoAuditor)",
                 ),
             ),
             "pat": (

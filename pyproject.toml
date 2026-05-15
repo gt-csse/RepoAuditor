@@ -30,9 +30,9 @@ classifiers = [
 text = "MIT"
 
 [project.urls]
-Homepage = "https://github.com/gt-sse-center/RepoAuditor"
-Documentation = "https://github.com/gt-sse-center/RepoAuditor"
-Repository = "https://github.com/gt-sse-center/RepoAuditor"
+Homepage = "https://github.com/gt-csse/RepoAuditor"
+Documentation = "https://github.com/gt-csse/RepoAuditor"
+Repository = "https://github.com/gt-csse/RepoAuditor"
 
 [project.scripts]
 RepoAuditor = "RepoAuditor:EntryPoint.app"

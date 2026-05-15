@@ -80,7 +80,7 @@ class TestCommunityStandardsModule:
     def test_GenerateInitialData(self):
         """Test GenerateInitialData method."""
         dynamic_args = {
-            "url": "https://github.com/gt-sse-center/RepoAuditor",
+            "url": "https://github.com/gt-csse/RepoAuditor",
             "pat": Path(__file__).parent / "dummy_github_pat.txt",
         }
         module = GetModule()

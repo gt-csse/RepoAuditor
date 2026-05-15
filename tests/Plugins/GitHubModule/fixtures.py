@@ -24,7 +24,7 @@ def session_fixture():
         is_enterprise: bool
 
     s = _GithubSession_(
-        "https://github.com/gt-sse-center/RepoAuditor",
+        "https://github.com/gt-csse/RepoAuditor",
         pat="github_pat_dummy",
         is_enterprise=False,
     )
