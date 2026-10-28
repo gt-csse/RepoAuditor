@@ -5,7 +5,7 @@ readme = "README.md"
 authors = [
     { name = "Scientific Software Engineering Center at Georgia Tech", email = "sse-center@gatech.edu" },
 ]
-requires-python = ">= 3.10"
+requires-python = ">= 3.11"
 dependencies = [
     "dbrownell-common>=0.16.0",
     "gitpython>=3.1.44",
@@ -20,10 +20,10 @@ classifiers = [
     "Operating System :: Microsoft :: Windows",
     "Operating System :: POSIX :: Linux",
     "Programming Language :: Python",
+    "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.10",
 ]
 
 [project.license]
@@ -65,9 +65,7 @@ path = "src/RepoAuditor/__init__.py"
 
 [tool.pytest.ini_options]
 addopts = "--verbose -vv --capture=no --cov=RepoAuditor --cov-fail-under=95.0 --cov-report html --cov-report term --cov-report xml:coverage.xml"
-python_files = [
-    "**/*Test.py",
-]
+python_files = ["**/*Test.py"]
 
 [tool.ruff]
 line-length = 110
@@ -82,21 +80,21 @@ ignore = [
     "ANN003", # Missing type annotation for `**kwargs`
     "BLE001", # Do not catch blind exception: `Exception`
     "COM812", # Trailing comma missing
-    "D104", # Missing docstring in public package
-    "D106", # Missing docstring in public nested class
-    "D107", # Missing docstring in `__init__` method
-    "D202", # No blank lines allowed after function docstring
-    "E501", # Line too long
+    "D104",   # Missing docstring in public package
+    "D106",   # Missing docstring in public nested class
+    "D107",   # Missing docstring in `__init__` method
+    "D202",   # No blank lines allowed after function docstring
+    "E501",   # Line too long
     "FBT003", # Boolean positional argument in function call
-    "I001", # Import block is un-sorted or un-formatted
-    "N802", # Function name `xxx` should be lowercase
-    "N999", # Invalid module name
+    "I001",   # Import block is un-sorted or un-formatted
+    "N802",   # Function name `xxx` should be lowercase
+    "N999",   # Invalid module name
     "RSE102", # Unnecessary parentheses on raise exception
-    "S101", # Use of assert detected
-    "TC006", # Add quotes to type expression in `typing.cast()`
-    "UP007", # Use `X | Y` for type annotations
-    "UP032", # Use f-string instead of `format` call
-    "UP038", # Use `X | Y` in `isinstance` call instead of `(X, Y)`
+    "S101",   # Use of assert detected
+    "TC006",  # Add quotes to type expression in `typing.cast()`
+    "UP007",  # Use `X | Y` for type annotations
+    "UP032",  # Use f-string instead of `format` call
+    "UP038",  # Use `X | Y` in `isinstance` call instead of `(X, Y)`
 ]
 
 [tool.ruff.lint.mccabe]

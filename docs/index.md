@@ -6,7 +6,7 @@ It helps maintain high-quality and consistent open-source repositories even if y
 
 ## Compatibility
 
-We only support Python 3.10 and above. Please make sure you have a suitable python version.
+We only support Python 3.11 and above. Please make sure you have a suitable python version.
 
 ## Contents
 
