@@ -29,7 +29,7 @@ readme = "README.md"
 authors = [
     { name = "Scientific Software Engineering Center at Georgia Tech", email = "sse-center@gatech.edu" },
 ]
-requires-python = ">= 3.10"
+requires-python = ">= 3.11"
 dependencies = [
     "dbrownell-common>=0.16.0",
     "gitpython>=3.1.44",
@@ -41,10 +41,10 @@ classifiers = [
     "Operating System :: Microsoft :: Windows",
     "Operating System :: POSIX :: Linux",
     "Programming Language :: Python",
+    "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.11",
-    "Programming Language :: Python :: 3.10",
 ]
 
 [project.license]
@@ -219,7 +219,7 @@ class ReadmeRequirement(Requirement):
                     EvaluateResult.Error,
                     "A README was found inside the repository",
                 )
-            
+
             # Else return success
             return Requirement.EvaluateImplResult(
                 EvaluateResult.Success,

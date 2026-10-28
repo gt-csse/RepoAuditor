@@ -3,7 +3,7 @@ run-name: EndToEnd ${{ github.run_number }} on ${{ github.ref_name }}
 
 on:
   schedule:
-    - cron: '0 * * * *' # Once every hour
+    - cron: "0 * * * *" # Once every hour
   workflow_dispatch:
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
         # Since the system under test here is the GitHub API, it is sufficient to test using only a single OS.
         os: ["ubuntu-latest"]
         # Similar to OS, we only test the lowest and highest supported versions.
-        python_version: ["3.10", "3.13"]
+        python_version: ["3.11", "3.14"]
 
     name: Validate
     runs-on: ${{ matrix.os }}

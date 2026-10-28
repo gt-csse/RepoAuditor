@@ -18,5 +18,5 @@ github_username: gt-csse
 license: MIT
 project_name: RepoAuditor
 python_package_name: RepoAuditor
-python_versions: 3.10, 3.11, 3.12, 3.13
+python_versions: 3.11, 3.12, 3.13, 3.14
 sign_artifacts_question: true
